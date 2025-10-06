@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "question": "¿Aprobar la propuesta de mejora del protocolo DeFi?",
+  "voters": {
+    "total": 300,
+    "yes": 220,
+    "no": 80,
+    "participation_rate": 0.85,
+    "simulate_partial": true,
+    "all_must_vote": false
+  },
+  "voting": {
+    "period_days": 7,
+    "quorum_bps": 5100
+  }
+}

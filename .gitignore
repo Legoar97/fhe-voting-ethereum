@@ -1,0 +1,60 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+/fhe_artifacts
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# Dependencies
+node_modules/
+package-lock.json
+/ignition
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# FHE artifacts (grandes, regenerar localmente)
+fhe_artifacts/*.bin
+fhe_artifacts/*.key
+
+# Mantener metadata
+!fhe_artifacts/metadata.json
+
+# Reports
+simulation_report.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+address.txt
