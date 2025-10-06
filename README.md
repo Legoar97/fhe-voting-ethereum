@@ -181,8 +181,9 @@ fhe-voting-ethereum/
 ├── contracts/
 │   ├── PrivateVoting.sol          # Contrato de votación privada
 │   └── PublicVoting.sol           # Contrato de referencia público
+├── offchain/
+│   └── generate_votes.py          # Generador de votos FHE
 ├── scripts/
-│   ├── generate_votes.py          # Generador de votos FHE
 │   └── run_voting_simulation.js   # Orquestador de simulación
 ├── config/
 │   └── vote_simulation.json       # Configuración central
